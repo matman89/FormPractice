@@ -48,12 +48,12 @@ body
 {
     display: flex;
     height: 200px;
-    font-size: 25px;
+    font-size: 23px;
     font-weight:bold;
     justify-content: center;
     align-items: center;
     padding: 25px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(215, 245, 255);
     border-radius: 0px 10px 0px 0px;
 }
 
@@ -69,11 +69,11 @@ body
     display: flex;
     height: 200px;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 1;
     padding: 5px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(215, 245, 255);
 }
 
 #f1
@@ -107,15 +107,33 @@ form
 
 button
 {
+    display: flex;
     background-color: mediumslateblue;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     width: 200px;
+    height: 30px;
     border-radius: 5px;
     padding: 5px;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .txt
 {
-    font-size: 20px;
+    white-space: pre;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+a
+{
+    color: blue;
+    font-weight: bold;
 }
