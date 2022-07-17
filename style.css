@@ -1,7 +1,4 @@
-*
-{
- border: 1px solid firebrick;
-}
+
 
 html, body {
     height: 100%;
@@ -16,31 +13,28 @@ body
     justify-content: center;
 }
 
-.mainbox
+.masterbox
 {
     display: flex;
-    border-radius: 15px;
-    justify-content: center;
     background-color: peachpuff;
-    height: 750px;
+    height: 600px;
     width: 1000px;
+    border-radius: 10px;
 }
 
 .lbox
 {
-    display:flex;
-    height: 750px;
-    width: 500px;
+    display: flex;
+    width: 400px;
+    background-image: url(images/jellyfish.jpeg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
 }
 
-
-
-.row1
+.rbox
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    padding: 5px;
-    font-size: 20px;;
+    width: auto;
+    flex-grow: 1;
 }
